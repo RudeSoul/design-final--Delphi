@@ -1,89 +1,87 @@
-// ==========================================================================
-// Config
-// Define variables, maps and fonts at this partial.
-// ==========================================================================
+$font-family-roboto: "Roboto",
+sans-serif;
 
-//Enter your Web Address here for print media
-$domain-name: "www.domain-name.com";
 
-//Text
-$base__font-size: 16px;
-$base__line: 24px;
+$font-family--default: $font-family-roboto;
 
-//Font Stacks
-
-//$font-url--google : abc;
-
-// $typefaces
-// Configuration of webfonts imports.
-// $typefaces - {map}
-// @family - {string}
-// @weight - {integer} or {keyword} i.e. 800, bold
-// @style - {keyword} i.e. normal, italic
-
-//$typefaces: (
-//  'FILENAME': (
-//    family: 'fontname',
-//    weight: 100,
-//    style: normal,
-//  ),
-//);
-
-$font-family-sans-fallback: 'Arial', sans-serif;
-$font-family-sans: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', $font-family-sans-fallback;
-$font-family-serif: 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
-$font-family-monospace: 'Inconsolata', 'Menlo', 'Consolas', 'Bitstream Vera Sans Mono', 'Courier', monospace;
-$font-family--primary : $font-family-sans;
-$font-family--secondary : $font-family-sans;
-
-//Colors
-$white: #fff;
-$black: #000;
+$white: #ffffff;
+$black: #000000;
+$gallery:#EEEEEE;
+$alabaster:#FAFAFA;
+$alto:#E0E0E0;
 $gray: #c7c7c7;
-$red: #D24D57;
-$blue: #3A539B;
-$light-blue: #009BDE;
-$yellow: #F7CA18;
-$green: #36D7B7;
+$dusty-gray:#9E9D9D;
+$rolling-ston:#707478;
+$oslo-gray:#80858B;
+$red: #d24d57;
+$blue: #3a539b;
+$light-blue: #009bde;
+$yellow: #f7ca18;
+$green: #36d7b7;
+$mercury:#E5E5E5;
+$Jacksons-Purple:#1A237E;
+$outer-space:#263238;
+$Silver-Chalice:#9E9E9E;
+$Fern:#66BB6A;
+$dove-gray:#616161;
+$mine-shaft:#212121;
+$blue-ribbion:#304FFE;
+$coral-red:#ff3642;
+$catsill-white:#EFF2F7;
+$heather:#C0CCDA;
+$plantation:#223741;
+$gull-gray:#9FAAB7;
+$electric-violet:#6236FF;
+$blaze-orange:#FA6400;
+$turquoise:#44D7B6;
+$silver:#BDBDBD;
+$wave-orange:#EAA800;
+$blaze-orange:#FA6400;
+$coral: #FF7849;
+$french-rose:#EC407A;
+$selective-yellow:#F7B500;
+$french-pass:#B9DDFC;
+$puerto-rico:#4BC4C2;
+$amaranth:#E91E62;
 
-//Message Colors
-$error: lighten($red,5%) !default;
-$success: $green !default;
-$edit: $yellow !default;
+$pastel-green:#63D9A0;
+$royal-heath:#A3296E;
+$doger-blue:#2196F3;
 
-//Breakpoints
-$sm-device: 576px;
-$md-device: 768px;
-$lg-device: 992px;
-$xl-device: 1200px;
+$shamrock:#2FCD8B;
+$azure-radiance:#0091FF;
 
-//UI Colors
-$ui-colors: (
-  default: $blue,
-  success: $success,
-  error: $error,
-  warning: $edit
-);
-
-//Color Palette
-$palettes: (
-  gray-shades: (
-    base: $gray,
-    dark: darken($gray,20%),
-    light: lighten($gray,20%)
-  ),
-  blue-shades: (
-    base: $blue,
-    dark: darken($blue,20%),
-    light: lighten($blue,20%)
-  )
-);
+$killarney:#397049;
 
 
-//Font size variables
-$default-font-size: $base__font-size - 2px;
-$small-font-size: $default-font-size - 2px;
-$lg-font-size: $default-font-size + 2px;
+
+
+
+$primary-color: $white;
+$body-color:$mercury;
+
+$text-color--black:$black;
+
+$text-color--ic-lunch:$blue-ribbion;
+$text-color--pubmed:$blue-ribbion;
+
+$background-color--header:$Jacksons-Purple;
+$background-color--h2:$black;
+
+$background-color--side-nav:$outer-space;
+
+$short-overview__label--text-color:$Silver-Chalice;
+
+$short-overview__body-label--text-color:$dove-gray;
+$short-overview__body-placeholder--text-color:$mine-shaft;
+
+$side-nav__img--border:$Fern;
+$btn-border-color:$catsill-white;
+$btn-rect-border-color:$heather;
+
+$indicator__text-color:$gull-gray;
+
+
 
 //Heading font size vairables
 $heading-line-height: 28px !default;
@@ -91,14 +89,10 @@ $head1-font-size: 26px !default;
 $head2-font-size: $head1-font-size - 4px !default;
 $head3-font-size: $head1-font-size - 8px !default;
 
-//Color Usage
-$primary-color: $white;
-$secondary-color: $black;
-$accent-color: $gray;
-$shadow-color: rgba($black, .2);
-$border-color: $gray;
-$color-text: $black;
-$color-link: $blue;
 
-//Path to Assets
-$path--rel: "../images";
+
+//Breakpoints
+$sm-device: 425px;
+$md-device: 768px;
+$lg-device: 992px;
+$xl-device: 1440px;

@@ -1,18 +1,15 @@
-// ==========================================================================
-// Style
-// Import all manifest partials from other folder to this file.
-//
-// ---------------------------------------------------------------------------
-//
-// Scalable and Modular Architecture for CSS (SMACSS)
-// With SMACSS, we divide our styles into fives categories: base, libs, modules, states, and utilities
-// ==========================================================================
-
 @import 'utilities/manifest';
 
-/* Sass Compiled Css Code Start */
 @import 'base/manifest';
-@import 'modules/manifest';
+@import 'modules/common/manifest';
+@import 'modules/target-review/manifest';
+@import 'modules/tracer-ligand/manifest';
+@import 'modules/screening-plan/manifest';
+@import 'modules/target-forms/manifest';
+@import 'modules/notification-settings/manifest';
+@import 'modules/diagonal-box/manifest';
+@import 'modules/add-target-form/manifest';
+@import 'modules/protein-request/manifest';
 @import 'libs/manifest';
 @import 'states/manifest';
 @import 'shame';
